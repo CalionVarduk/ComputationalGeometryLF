@@ -1,0 +1,26 @@
+﻿  ClosestPairOfPoints.cpp
+  BasicAlgorithms.cpp
+  CartesianPlane.cpp
+  ConvexHull.cpp
+  DynamicControlCollection.cpp
+  LabelButton.cpp
+  RectangularBorder.cpp
+  CVAwfulCipher.cpp
+  FileManager.cpp
+  HuffmanCompression.cpp
+  FarthestPairOfPoints.cpp
+  GeometricEllipse.cpp
+  GeometricObject.cpp
+  GeometricPoint.cpp
+  GeometricPointComparers.cpp
+  GeometricPolygon.cpp
+  GeometricRectangle.cpp
+  GeometricSegment.cpp
+  IntersectionPoints.cpp
+  PointInclusion.cpp
+  Generating Code...
+  Compiling...
+  Program.cpp
+  Triangulation.cpp
+  Generating Code...
+  ComputationalGeometryLF.vcxproj -> E:\programowanie\c\ComputationalGeometryLF\Debug\ComputationalGeometryLF.exe

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA5182FE-7DAB-4B86-ACA0-BA33F7E6330C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>ComputationalGeometryLF</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ClosestPairOfPoints.cpp" />
+    <ClCompile Include="BasicAlgorithms.cpp" />
+    <ClCompile Include="CartesianPlane.cpp" />
+    <ClCompile Include="ConvexHull.cpp" />
+    <ClCompile Include="CV++ .NET Controls\DynamicControlCollection.cpp" />
+    <ClCompile Include="CV++ .NET Controls\LabelButton.cpp" />
+    <ClCompile Include="CV++ .NET Controls\RectangularBorder.cpp" />
+    <ClCompile Include="CV++ Utilities\CVFileIO\CVAwfulCipher.cpp" />
+    <ClCompile Include="CV++ Utilities\CVFileIO\FileManager.cpp" />
+    <ClCompile Include="CV++ Utilities\CVFileIO\HuffmanCompression.cpp" />
+    <ClCompile Include="FarthestPairOfPoints.cpp" />
+    <ClCompile Include="GeometricEllipse.cpp" />
+    <ClCompile Include="GeometricObject.cpp" />
+    <ClCompile Include="GeometricPoint.cpp" />
+    <ClCompile Include="GeometricPointComparers.cpp" />
+    <ClCompile Include="GeometricPolygon.cpp" />
+    <ClCompile Include="GeometricRectangle.cpp" />
+    <ClCompile Include="GeometricSegment.cpp" />
+    <ClCompile Include="IntersectionPoints.cpp" />
+    <ClCompile Include="PointInclusion.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Triangulation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddObjectForm.h" />
+    <ClInclude Include="ClosestPairOfPoints.h" />
+    <ClInclude Include="AlgorithmForm.h" />
+    <ClInclude Include="BasicAlgorithms.h" />
+    <ClInclude Include="CartesianPlane.h" />
+    <ClInclude Include="ConvexHull.h" />
+    <ClInclude Include="CV++ .NET Controls\ColorFactory.h" />
+    <ClInclude Include="CV++ .NET Controls\ControlSingleList.h" />
+    <ClInclude Include="CV++ .NET Controls\ControlTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\CVEmbeddedControls.h" />
+    <ClInclude Include="CV++ .NET Controls\DoubleBufferedPanel.h" />
+    <ClInclude Include="CV++ .NET Controls\DynamicControl.h" />
+    <ClInclude Include="CV++ .NET Controls\DynamicControlAligner.h" />
+    <ClInclude Include="CV++ .NET Controls\DynamicControlCollection.h" />
+    <ClInclude Include="CV++ .NET Controls\IDynamicList.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButton.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButtonList.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButtonScheme.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButtonTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\NumericLimiter.h" />
+    <ClInclude Include="CV++ .NET Controls\RectangularBorder.h" />
+    <ClInclude Include="CV++ .NET Controls\SecondaryForm.h" />
+    <ClInclude Include="CV++ .NET Controls\SimpleBox.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBox.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxList.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleControl.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleProgressBar.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBox.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledControl.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledControlBase.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledLabel.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledLabelList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledLabelTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledProgressBar.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledTextBox.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxTitledList.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\CVAwfulCipher.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\DataConverterBase.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\FileManager.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\HuffmanCompression.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\BSTree.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVHeap.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVPoint.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVQueue.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVRectangle.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVSize.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVStack.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\KeyedPair.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\QueueNode.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\StackNode.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\TreeNode.h" />
+    <ClInclude Include="CVNetControls.h" />
+    <ClInclude Include="CVUtilities.h" />
+    <ClInclude Include="DataConverter.h" />
+    <ClInclude Include="FarthestPairOfPoints.h" />
+    <ClInclude Include="GeometricEllipse.h" />
+    <ClInclude Include="GeometricObject.h" />
+    <ClInclude Include="GeometricPoint.h" />
+    <ClInclude Include="GeometricPolygon.h" />
+    <ClInclude Include="GeometricRectangle.h" />
+    <ClInclude Include="GeometricSegment.h" />
+    <ClInclude Include="IntersectionPoints.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ModObjectForm.h" />
+    <ClInclude Include="PointInclusion.h" />
+    <ClInclude Include="RemoveObjectForm.h" />
+    <ClInclude Include="Toolbox.h" />
+    <ClInclude Include="SettingsForm.h" />
+    <ClInclude Include="Triangulation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

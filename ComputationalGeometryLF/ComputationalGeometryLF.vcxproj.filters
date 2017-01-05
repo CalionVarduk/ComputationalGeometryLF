@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GeometricObjects">
+      <UniqueIdentifier>{ac52311e-35d6-49f0-92ed-8779a4cce758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeometricObjects">
+      <UniqueIdentifier>{6c47b379-726d-4ed8-8dad-a63e6e23dfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{23bdaa8b-1a61-4905-b828-bcf7bd8545ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{cf08d745-b21a-41a4-a895-7571567647c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{054e67c0-a3fc-41d2-99de-bc04d335644e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ Utilities">
+      <UniqueIdentifier>{7efdb58a-a78a-41fa-a374-c9bcd8212437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ Utilities\CVStructures">
+      <UniqueIdentifier>{4cc2983e-fc2c-4617-850c-9ce0186f105d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ Utilities\CVFileIO">
+      <UniqueIdentifier>{fece6cd8-9992-4e24-bb8a-379739af43ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls">
+      <UniqueIdentifier>{cb58587f-af18-43ca-b57b-2b9aa825eb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls\Source">
+      <UniqueIdentifier>{8d09e75d-4fe2-4326-b7ce-c02682b0ca4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls\Headers">
+      <UniqueIdentifier>{10416a6c-3abf-430b-806c-6d3d7f7b6930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls\Headers\EmbeddedControls">
+      <UniqueIdentifier>{a8e381a2-618b-4e70-83bc-c40e3dca6185}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricObject.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricPoint.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricSegment.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricRectangle.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricEllipse.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CartesianPlane.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ Utilities\CVFileIO\CVAwfulCipher.cpp">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ Utilities\CVFileIO\FileManager.cpp">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ Utilities\CVFileIO\HuffmanCompression.cpp">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicAlgorithms.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricPolygon.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosestPairOfPoints.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexHull.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricPointComparers.cpp">
+      <Filter>Source Files\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FarthestPairOfPoints.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionPoints.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulation.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PointInclusion.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\DynamicControlCollection.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\LabelButton.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\RectangularBorder.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricObject.h">
+      <Filter>Header Files\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricPoint.h">
+      <Filter>Header Files\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricSegment.h">
+      <Filter>Header Files\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricEllipse.h">
+      <Filter>Header Files\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricRectangle.h">
+      <Filter>Header Files\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AddObjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveObjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CartesianPlane.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataConverter.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolbox.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModObjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO.h">
+      <Filter>CV++ Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures.h">
+      <Filter>CV++ Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\BSTree.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVHeap.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVPoint.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVQueue.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVRectangle.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVSize.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVStack.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\KeyedPair.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\QueueNode.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\StackNode.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\TreeNode.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\CVAwfulCipher.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\DataConverterBase.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\FileManager.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\HuffmanCompression.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CVUtilities.h">
+      <Filter>CV++ Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicAlgorithms.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricPolygon.h">
+      <Filter>Header Files\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosestPairOfPoints.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexHull.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="FarthestPairOfPoints.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionPoints.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulation.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PointInclusion.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CVNetControls.h">
+      <Filter>CV++ .NET Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\ColorFactory.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\ControlSingleList.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\ControlTitledList.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DynamicControl.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DynamicControlAligner.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DynamicControlCollection.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\IDynamicList.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButtonScheme.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\NumericLimiter.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\RectangularBorder.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SecondaryForm.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SimpleBox.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleControl.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledControl.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledControlBase.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\CVEmbeddedControls.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DoubleBufferedPanel.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButton.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButtonList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButtonTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBox.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleProgressBar.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBox.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledLabel.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledLabelList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledLabelTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledProgressBar.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledTextBox.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
